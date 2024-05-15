@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text-3xl font-bold underline">
+        Hello world!
+    </h1>
+    <form>
+        <h3 class="text-xl mb-5"></h3>
+
+        <label class="mb-4 block">
+            <span class="block">User name</span>
+            <input id="name" type="text" class="border-2 border-red-400 focus:outline-yellow-400 rounded">
+        </label>
+
+        <label class="mb-4 block">
+            <span class="block">User img</span>
+            <input id="image" type="url" class="border-2 border-red-400 focus:outline-yellow-400 rounded">
+        </label>
+
+        <label class="mb-4 block">
+            <span class="block">Phone number</span>
+            <input id="phone-number" type="tel" class="border-2 border-red-400 focus:outline-yellow-400 rounded">
+        </label>
+
+        <label class="mb-4 block">
+            <span class="block">Email:</span>
+            <input id="email" type="email" class="border-2 border-red-400 focus:outline-yellow-400 rounded">
+        </label>
+
+        <button class="border px-4 py-1 rounded hover:bg-purple-800 hover:text-white transition duration-300">submit</button>
+    </form>
+
+    <ul class="list-disc mt-10">
+      <li>
+        <img src="./photo_2023-12-16_20-42-29.jpg" 
+         alt=""
+        width="200"
+        />
+
+        <h3>Name: Abdulaziz</h3>
+        <p>Tel: +998935145717</p>
+        <p>Email: abdulaziz030803@gmail.com</p>
+      </li>
+
+
+    </ul>
+</head>
+<body>
+
+    
+</body>
+</html>
